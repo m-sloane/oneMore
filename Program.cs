@@ -40,7 +40,7 @@ else
 1 -> нет
 */
 
-Console.Write("Input number corresponding to the day og the week: ");
+Console.Write("Input number corresponding to the day of the week: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
 
 void CheckingTheDayOfTheWeek (int dayNumber) 
@@ -49,7 +49,8 @@ void CheckingTheDayOfTheWeek (int dayNumber)
 {
 Console.WriteLine("(that is weekend) -> yes");
 }
-else if (dayNumber < 1 || dayNumber > 7) {
+else if (dayNumber < 1 || dayNumber > 7) 
+{
 Console.WriteLine("not a week day");
 }
 else Console.WriteLine("(not a weekend) -> no");
